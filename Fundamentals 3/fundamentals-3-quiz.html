@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+        function add7(a){ // function declaration, my favorite
+            return a + 7;
+        }
+        console.log(add7(1));
+
+        const multiply = function(a,b) { // function expression 
+            return a * b;
+        }
+        console.log(multiply(58,2))
+        
+        let capitalize = (string)=>{
+            let capitalLetter = string.charAt(0).toUpperCase();
+            let restOfString = string.slice(1).toLowerCase();
+            return capitalLetter + restOfString;
+        }
+        console.log(capitalize("yoDA iS GREenish and WISE."));
+        
+        function lastLetter(string) { // function declaration
+            return string.slice(-1)
+        }
+        console.log(lastLetter("lion king"));
+
+    </script>
+  </body>
+</html>
