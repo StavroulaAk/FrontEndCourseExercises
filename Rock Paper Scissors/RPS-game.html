@@ -27,38 +27,38 @@
                        
             if (computerSelection === "Rock") {
                 if (playerSelection === "rock") {
-                    return "Draw again."
                     draws++
+                    return "Draw again."
                 } else if (playerSelection === "paper") {
-                    return "You won!"
                     playerScore++;
+                    return "You won!"
                 } else if (playerSelection === "scissors") {
-                    return "You lost!"
                     computerScore++
+                    return "You lost!"
                 };
             };
             if (computerSelection === "Paper") {
                 if (playerSelection === "paper") {
-                    return "Draw again."
                     draws++
+                    return "Draw again."
                 } else if (playerSelection === "rock") {
-                    return "You lost..."
                     computerScore++
+                    return "You lost..."
                 } else if (playerSelection === "scissors") {
-                    return "You won!"
                     playerScore++
+                    return "You won!"
                 };
             }; 
             if (computerSelection === "Scissors") {
                 if (playerSelection === "scissors") {
-                    return "Draw again."
                     draws++
+                    return "Draw again."
                 } else if (playerSelection === "paper") {
-                    return "You lost..."
                     computerScore++
+                    return "You lost..."
                 } else if (playerSelection === "rock") {
-                    return "You won"
                     playerScore++
+                    return "You won"
                 };
             };
             console.log(playerScore);
