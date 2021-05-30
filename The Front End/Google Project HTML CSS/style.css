@@ -12,14 +12,19 @@ form {
   width: 500px;
   height: 45px;
   font-size: 16px;
+  border-radius:30px;
+  border: 1px solid rgb(180, 178, 178);
 }
-
+.account{
+  border-radius: 50%;
+}
 .up {
   font-family: Arial, sans-serif;
   font-size: small;
   word-spacing: 15px;
   text-align: right;
-  margin: 20px;
+  margin: 40px;
+  color: rgb(80, 78, 78);
 }
 
 .grid {
@@ -32,8 +37,9 @@ form {
   text-align: center;
   margin: 5px;
   margin: 30px;
-  padding: 10px 20px;
+  padding: 15px 20px;
   margin: 5px;
+  
 }
 
 .go {
@@ -41,6 +47,7 @@ form {
   font-size: small;
   text-align: center;
   margin-top: 36px;
+  color: rgb(80, 78, 78);
 }
 
 .down {
@@ -48,7 +55,7 @@ form {
   color: grey;
   margin-left: 20px;
   font-size: medium;
-  margin-top: 180px;
+  margin-top: 140px;
 }
 
 #bot {
@@ -57,7 +64,7 @@ form {
   margin-left: 19px;
   word-spacing: 15px;
   font-size: medium;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .alignleft {
@@ -66,4 +73,10 @@ form {
 .alignright {
   float: right;
   margin-right: 15px;
+}
+.searchbar{
+  padding: 5px;
+  border: 1px solid rgb(180, 178, 178);
+  color: rgb(109, 105, 105);
+  border-radius: 30px;
 }
