@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
 </head>
 <body>
     
     <script>
-        // 2 
+    
         function computerPlay() {
             let gameWords = ["Rock", "Paper", "Scissors"];
             let randomWord = gameWords[Math.floor(Math.random() * gameWords.length)];
@@ -17,7 +17,7 @@
         };
         console.log(computerPlay());
 
-        // 3
+        
         let playerScore = 0
         let computerScore = 0
         let draws = 0
@@ -61,15 +61,21 @@
                     return "You won"
                 };
             };
-            console.log(playerScore);
         };
         const computerSelection = computerPlay();
 
-        console.log(playRound("RoCk", computerSelection));
-        console.log(playRound("Scissors", computerSelection));
-        console.log(playRound("PAper", computerSelection));
-        console.log(playRound("paper", computerSelection));
-        console.log(playRound("PAPER", computerSelection));
+        for (let i = 0; i < 5; i++){
+            let computerSelection = computerPlay();
+            let playerSelection = prompt("Type rock, paper or scissors");
+            //playerSelection = playerSelection.toLowerCase();
+            let round = playRound(playerSelection, computerSelection);
+            if (playerSelection === "rock" || playerSelection === "paper" || playerSelection === "scissors") {
+                alert(`You chose ${playerSelection}`)
+            }else if (playerSelection !== "rock" || playerSelection !== "paper" || playerSelection !== "scissors") {
+                alert("Error! You should have chosen rock, paper or scissors")
+            }
+            console.log(round);
+        }
         
         function gameScore(){
             if (playerScore > computerScore) {
@@ -81,15 +87,6 @@
             }
         }
         console.log(gameScore());
-   
-        let playerChoice = prompt("Type rock, paper or scissors");
-        playerChoice = playerChoice.toLowerCase()
-            if (playerChoice === "rock" || playerChoice === "paper" || playerChoice === "scissors") {
-                alert(`You chose ${playerChoice}`)
-            }else if (playerChoice !== "rock" || playerChoice !== "paper" || playerChoice !== "scissors") {
-                alert("Error! You should choose between rock, paper and scissors")
-            }
-
     </script>
 
 </body>
