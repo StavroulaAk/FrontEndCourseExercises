@@ -4,7 +4,7 @@ describe('caesar', function() {
   it('works with single letters', function() {
     expect(caesar('A', 1)).toEqual('B');
   });
-  xit('works with words', function() {
+  it('works with words', function() {
     expect(caesar('Aaa', 1)).toEqual('Bbb');
   });
   xit('works with phrases', function() {
