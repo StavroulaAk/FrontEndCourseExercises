@@ -1,0 +1,68 @@
+@import "./grid-framework";
+@import "./images";
+@import "./footer";
+@import "./media-queries";
+@import "./header";
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+
+.heading {
+  font-size: 2rem;
+  color: #363c3f;
+  margin-top: 4rem;
+  // margin-bottom: 2rem;
+}
+$hover-h-color: #7bcaff;
+$h-color: #007dc5;
+
+
+h2 {
+  margin: 1rem 0 0.5rem 0;
+  cursor: pointer;
+  color: $h-color;
+  &:hover {
+    color: $hover-h-color;
+  }
+}
+
+.big-stories {
+  margin-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.small-stories {
+  margin-bottom: 3rem;
+}
+
+.habitat {
+  padding-top: 5rem;
+  border-top: 1px solid rgb(212, 210, 210);
+}
+
+.heading {
+  margin-bottom: 2rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  background-color: $h-color;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.saying {
+  & :nth-child(1) {
+    @extend .heading;
+    @extend .habitat;
+  }
+  padding-bottom: 5rem;
+  border-bottom: 1px solid rgb(212, 210, 210);
+  text-align: center;
+}
+

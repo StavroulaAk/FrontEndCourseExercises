@@ -1,0 +1,75 @@
+@media screen and (max-width: 640px) {
+  .big-stories {
+    display: block;
+  }
+
+  .small-stories {
+    display: block;
+  }
+
+  .habitat-1 {
+    display: block;
+  }
+
+  .footer {
+    img {
+      display: none;
+    }
+
+    h3 {
+      display: none;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  h2 {
+    line-height: 1.5rem;
+  }
+
+  .habitat {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .check {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .main-head {
+    button {
+      display: none;
+    }
+  }
+
+  header {
+    .explore {
+      display: none;
+    }
+  }
+
+  .main-logo {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 915px) {
+  .big-stories {
+    padding-bottom: 5rem;
+  }
+
+  .small-stories {
+    padding-bottom: 2rem;
+  }
+
+  .habitat {
+    padding-bottom: 2rem;
+  }
+}

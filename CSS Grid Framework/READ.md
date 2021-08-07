@@ -1,0 +1,1 @@
+For this project, I built my own Grid-based Framework, based on which I created a replica of the Home Page of the website of "Polar Bear International" https://polarbearsinternational.org/
