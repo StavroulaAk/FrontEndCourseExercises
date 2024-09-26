@@ -1,0 +1,54 @@
+// 1 
+//must give 2
+function troubleshooting() {
+	const a = 1;
+	const b = 1;
+
+	// Edit between these lines
+	// =================================
+	return a + b;
+
+	// =================================
+}
+console.log(troubleshooting())
+
+// 2
+//Change this code so it returns `true` when the number is greater than or equal to 10, and false if it is less than 10
+
+number = Number(prompt("10"));
+
+function numberChecker() {
+   if(number >= 10) {
+       return true;
+   } else { number < 10
+       return false;
+   }
+}
+
+// 3
+a = one plus eight
+* b = 22 times three
+* c = the *remainder* of 5/4
+* d = the variable 'a' minus 17
+* e = the sum of the previous four variables
+*/
+
+const a = 1 + 8
+const b = 22 * 3
+const c = 5 % 4
+const d = a - 17
+const e = a + b + c + d
+
+module.exports = {a, b, c, d, e}
+
+// 4
+const birthYear = 1948;
+const age = new Date().getFullYear() - birthYear;
+const firstName = "Carlos"
+const lastName = "Stevenson"
+const fullName = firstName + " " + lastName;
+
+
+const greeting = "Hello! My name is " + fullName + " " + "and I am " + age + " years old.";
+
+console.log(greeting);

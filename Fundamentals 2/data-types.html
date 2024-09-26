@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="data.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Data Types</h1>
+        <p id="introduction">Beginners to JavaScript, welcome! In this first article of the many that will follow of the <span>JavaScript for Beginners Hub</span> series, we will learn about the 8 basic Data types. We will get confused too but no worries, the hand-full of amazing videos and articles of the top educators are coming to our aid. Ready to dive in?</p>
+    </header>
+    
+    <div><img src="numbers1.jpeg" alt="" width="130cm" height="130cm"> <img src="tf.png" alt="" width="160cm" height=""> <img src="strings.jpg" alt="" width="130cm"></div> 
+    <table>
+        <tr>
+            <td>  
+                <h3 class="title1">Numbers</h3>
+                <p>In JavaScript, numbers are what they are in maths: regular numbers of any kind, from Whole numbers (0,1,2,...) to Real Numbers (0.4, -12.7 etc). Number is also considered the NaN value (not a number) that results from an operation of a number and a non-number e.g. "Hello"/2 = NaN.</p><aside>For a better insight, watch <a href="https://youtu.be/nBEBraDJkFg">FreeCodeCamp's video</a>.</aside>
+                        
+            </td>
+            <td> <h3 class="title2">BigInt</h3>
+                <p> Integers (25, 8, 9640) are numbers, however, integers of arbitrary length belong to the BigInt type. In other words, all values larger than (2**53-1) or less than -(2**53-1) are BigIntegers. The "n" in the end of a value is also indicating a BigInt e.g x = 65412n.</p><aside>Time to study and practise on this awesome <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt">MDN article</a>.</aside>
+                        
+            </td>
+            <td> <h3 class="title3">Strings</h3>
+                <p> A string is anything in quotes, either double or single (" ", ' '), for example "Hello", "We're very happy". Numbers in quotes are also strings e.g. "52".</p><aside>However, strings are a wide JS topic. This <a href="https://www.w3schools.com/js/js_strings.asp">W3schools article</a> will answer all your questions.</aside>
+                        
+            </td>
+
+        </tr>
+        <tr>
+            <td> <h3 class="title3">Undefined</h3>
+                <p>An undefined value is simply a value that has not been assigned unintentionally. For example if we declare a variable let = age; and then we run the alert function (alert(age);), the outcome will be "undefined" as we forgot to assign a value to variable "age".</p>
+            </td>
+            <td> <h3 class="title1">Null</h3>
+                <p>A null value on the other hand represents nothing, an empty and unknown value, for example let Year = null.</p><aside>Ok, null means an empty value, so what? Null and undefined might be confusing at start but here comes a <a href="https://youtu.be/VwaqJy_clnc">FreeCodeCamp video</a> to save the day and make the difference more understandable.</aside>
+            </td>
+            <td> <h3 class="title2">Boolean</h3>
+                <p>Booleans are two; true and false, always written with lower case letters.</p>
+                    <p>For example let price = 5 > 1
+                        alert(price); will give out true since 5 is indeed greater than 1.
+                    </p>
+                <aside>This <a href="https://www.w3schools.com/js/js_booleans.asp">super article from W3Schools</a> not only will introduce booleans but also comparisons!</aside>
+            </td>
+            
+
+        </tr>
+        <tr>
+            <td> <h3 class="title2">Objects</h3>
+                <p>The object type is special and very important in JavaScript.  Objects are used to store collections of data.</p>
+                <p>For example, let person = {
+                    firstName: "John",
+                    age: 26
+                  };. Person is an object, firstName and age are properties and the curly brackets{} define an object.</p><aside>This <a href="https://youtu.be/W6NZfCO5SIk?t=1808">super Mosh video</a> will give a more detailed overview of objects.</aside>
+            </td>
+            <td> <h3 class="title3">typeof Operator</h3>
+                <p>This operator is used in our console to find out the data type of value. For example if in our console we write 'typeof 5' it will gives us "number" because 5 is a number. If we write 'typeof true', we will get "boolean". So in case you forgot the data type of NaN, you can use typeof and voila!</p>
+            </td>
+            <td> <h3 class="title1">Symbols</h3>
+                <p>Since we are still beginners, we will not introduce Symbols at this point, however, if you wish to find out more, this <a href="https://youtu.be/gANDd4l-G5U">FreeCodeCamp video</a> is coming to the rescue!</p>
+            </td>
+            
+        </tr>
+       
+    </table>
+
+    <footer id="foot">
+        <p id="alignleft">© 2021 Landing Page</p> 
+        <p id="alignright">About Blog Connect</p>
+    </footer>
+
+</body>
+</html>

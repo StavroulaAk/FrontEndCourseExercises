@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    line-height: 1.5; 
+    text-align: center;   
+    background-color: #f6f4f2;
+    color: #4b4a4a;
+}
+header{
+    background-color: #154e64;
+    box-sizing: border-box;
+    padding: 70px;
+    display: block;
+    color:white;
+}
+h1{
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+}
+#introduction{
+    font-size: large;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+span{
+    font-style: italic;
+    color: #ca6c73
+    
+}
+div{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+img{
+    border-radius: 50%;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;  
+    border: 1px solid black ;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+td{
+    border: 15px solid #f6f4f2 ;
+    padding: 20px;
+    background-color: white;
+    width: 400px;
+    height: 320px;
+}
+.title1{
+    color: #ca6c73;
+    font-weight: 700;
+}
+.title2{
+    color: #ad5fbb;
+    font-weight: 700;
+}
+.title3{
+    color: #4c9ab9;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: #d16720;
+}
+a:visited{
+    color: #29a830;
+}
+footer{
+    padding: 50px;
+    background-color: #154e64;
+    box-sizing: border-box;
+    color: rgb(39, 37, 37);
+}
+#alignleft{
+    float: left;
+}
+#alignright{
+    float: right;
+}
